@@ -70,19 +70,26 @@
       "id": 6
     },
     {
-      "text": "Hi supraja How are you i am fine",
-      "wordCount": 8,
+      "text": "Hi, I am bhavani",
+      "wordcount":4,
       "uniqueWords": [
-        "Hi",
-        "supraja",
-        "How",
-        "are",
-        "you",
-        "i",
+        "Hi,",
+        "I",
         "am",
-        "fine"
+        "bhavani"
       ],
       "id": 7
+    },
+    {
+      "text": "Hi, I am Ravinder",
+      "wordcount":4,
+      "uniqueWords": [
+        "Hi,",
+        "I",
+        "am",
+        "Ravinder"
+      ],
+      "id": 8
     }
   ],
   "User": [
@@ -95,6 +102,17 @@
       "email": "suprajaboddapati23@gmail.com",
       "password": "12345678",
       "id": 2
+    },
+    {
+      "id": 3,
+      "email": "bhavaniyan551@gmail.com",
+      "password": "12345678"
+      
+    }
+    {
+      "id":4,
+      "email": "ravinderreddy@gmail.com",
+      "password": "ravinder"
     }
   ]
 }
