@@ -1,0 +1,100 @@
+{
+  "wordcount": [
+    {
+      "text": "i am supraja completed graduation in srkr engineering college",
+      "wordCount": 9,
+      "uniqueWords": [
+        "i",
+        "am",
+        "supraja",
+        "completed",
+        "graduation",
+        "in",
+        "srkr",
+        "engineering",
+        "college"
+      ],
+      "id": 1
+    },
+    {
+      "text": "I In In In",
+      "wordCount": 4,
+      "uniqueWords": [
+        "I",
+        "In"
+      ],
+      "id": 2
+    },
+    {
+      "text": "supreee ",
+      "wordCount": 1,
+      "uniqueWords": [
+        "supreee",
+        ""
+      ],
+      "id": 3
+    },
+    {
+      "text": "supotrgbv bhbajna namkj",
+      "wordCount": 3,
+      "uniqueWords": [
+        "supotrgbv",
+        "bhbajna",
+        "namkj"
+      ],
+      "id": 4
+    },
+    {
+      "text": "hi  iam mounika working in wipro ",
+      "wordCount": 6,
+      "uniqueWords": [
+        "hi",
+        "iam",
+        "mounika",
+        "working",
+        "in",
+        "wipro",
+        ""
+      ],
+      "id": 5
+    },
+    {
+      "text": "I Hello Hello I am you am",
+      "wordCount": 7,
+      "uniqueWords": [
+        "I",
+        "Hello",
+        "am",
+        "you"
+      ],
+      "id": 6
+    },
+    {
+      "text": "Hi supraja How are you i am fine",
+      "wordCount": 8,
+      "uniqueWords": [
+        "Hi",
+        "supraja",
+        "How",
+        "are",
+        "you",
+        "i",
+        "am",
+        "fine"
+      ],
+      "id": 7
+    }
+  ],
+  "User": [
+    {
+      "id": 1,
+      "email": "suprajaBoddapati@gmail.com",
+      "password": "Supraja@123"
+    },
+    {
+      "email": "suprajaboddapati23@gmail.com",
+      "password": "12345678",
+      "id": 2
+    }
+  ]
+}
