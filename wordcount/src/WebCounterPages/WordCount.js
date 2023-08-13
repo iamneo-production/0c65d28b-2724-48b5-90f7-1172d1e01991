@@ -61,7 +61,7 @@ const WordCount=()=>{
     return wordCount;
 
   }
-  
+  console.log(wordCount);
 
   
 
