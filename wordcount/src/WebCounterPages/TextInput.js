@@ -1,4 +1,5 @@
 import React from 'react';
+import '../App.css';
 const TextInput=({onTextChange})=>{
     const changeText=(event)=>{
         const text=event.target.value;
@@ -7,8 +8,8 @@ const TextInput=({onTextChange})=>{
     return(
         <>
         
-        <div>
-          <textarea  rows='15' cols='40' className='textArea' 
+        <div className=''>
+          <textarea  className='textArea'
           onChange={changeText} 
           placeholder="Please Enter the Text">
     

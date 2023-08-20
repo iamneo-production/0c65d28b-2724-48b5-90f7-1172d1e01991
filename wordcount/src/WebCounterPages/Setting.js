@@ -12,7 +12,7 @@ const Settings=()=>{
          <h1 className="heading">Welcome to settings Page</h1>
          <label className="content">
             BackgroundColor:
-            <input type="color" onChange={handleColorChange}/>
+            <input  type="color" onChange={handleColorChange}/>
          </label>
         </div>
 
