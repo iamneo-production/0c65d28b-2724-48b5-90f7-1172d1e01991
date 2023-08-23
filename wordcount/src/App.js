@@ -10,62 +10,75 @@ import Settings from './WebCounterPages/Setting';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { SettingsProvider } from './WebCounterPages/SettingContext';
 
+
 function App() {
   const handleLogout=()=>{
     localStorage.removeItem('authToken')
   }
   
   return (
-    <div className="App">
+   
+    <div className='App'>
     
       <SettingsProvider>
 
       <BrowserRouter>
     
-        <div>
-          <nav class="navbar navbar-expand-lg bg-info ">
-            <div class="container-fluid">
-              <a class="navbar-brand text-danger"  href="WordCount">
+      
+          <nav class="navbar navbar-expand-lg navbar-info bg-info">
+             
+              <h3 className="title">
                 WordCount
-              </a>
-            </div>
-            <form class="d-flex">
-              <button class="btn btn-success  me-2 " type="button">
-                <Link to="/api/wordcount" class="text-light text-decoration-none">
+              </h3>
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+              
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav ml-auto">
+        <button class="nav-link btn btn-success" type="button">
+
+               
+                <Link to="/api/wordcount" class="text-light text-decoration-none m-0.5">
                   WordCount
                 </Link>
-              </button>
-              &nbsp;
-              <button class="btn btn-success  me-2" type="button">
+                </button>
+            
+                <button class="nav-link btn btn-success m-1" type="button">
                 <Link to="/api/stats" class="text-light text-decoration-none">
                  Statistics
                 </Link>
-              </button>
-              &nbsp;
-              <button class="btn btn-success  me-2" type="button">
+                </button>
+              
+                <button class="nav-link btn btn-success m-1" type="button">
                 <Link to="/api/word" class="text-light text-decoration-none">
                   Words
-                </Link>
+                </Link>  
                 </button>
-                &nbsp;
-                <button class="btn btn-success  me-2" type="button">
+
+                <button class="nav-link btn btn-success m-1" type="button">
+                
                 <Link to="/api/settings" class="text-light text-decoration-none">
                   Settings
                 </Link>
-                &nbsp;
+              
+                </button>
 
-              </button>
-              <button class="btn btn-success  me-2" type="button"onClick={handleLogout}>
+                
+                <button class="nav-link btn btn-success p-1 m-1" type="button"onClick={handleLogout}>
                 <Link to="/login" class="text-light text-decoration-none">
                   Logout
                 </Link>
-                &nbsp;
-
               </button>
-
-            </form>
-          </nav>
+            
+              
+              </div>
+          
           </div>
+        
+          </nav>
+          
+        
     
       <Routes>
 
@@ -81,8 +94,10 @@ function App() {
       </Routes>
       </BrowserRouter>
       </SettingsProvider>
+      
 
     </div> 
+  
   );
 }
 

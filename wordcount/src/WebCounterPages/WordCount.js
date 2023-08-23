@@ -27,7 +27,7 @@ const WordCount=()=>{
       setWordCount(response.data.wordCount)
     })
     .catch(error=>{
-      console.error("Error fetching word Count:",error);
+      //console.error("Error fetching word Count:",error);
     });
   },[])
  
@@ -44,14 +44,16 @@ const WordCount=()=>{
       setWordCount(response.data.wordCount);
     })
     .catch(error=>{
-      console.error("Error submitting text",error)
+      //console.error("Error submitting text",error)
     })
     
 
   }
   const calculateWordCount=(text)=>{
+    console.log(text)
     const words=text.split(" ")
     let wordCount=0;
+  
     words.forEach((word)=>{
       
       if(word.trim()!==""){
@@ -59,6 +61,7 @@ const WordCount=()=>{
       }
     })
     return wordCount;
+    console.log(wordCount)
 
   }
   

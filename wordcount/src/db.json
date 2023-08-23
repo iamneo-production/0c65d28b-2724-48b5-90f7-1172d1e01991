@@ -83,6 +83,48 @@
         "fine"
       ],
       "id": 7
+    },
+    {
+      "text": "suprajba nnsnj snj nsj snsj",
+      "wordCount": 5,
+      "uniqueWords": [
+        "suprajba",
+        "nnsnj",
+        "snj",
+        "nsj",
+        "snsj"
+      ],
+      "id": 8
+    },
+    {
+      "text": "supraja boddapati chowdary",
+      "wordCount": 3,
+      "uniqueWords": [
+        "supraja",
+        "boddapati",
+        "chowdary"
+      ],
+      "id": 9
+    },
+    {
+      "text": "sfgyh jskjhs njaskkjb",
+      "wordCount": 3,
+      "uniqueWords": [
+        "sfgyh",
+        "jskjhs",
+        "njaskkjb"
+      ],
+      "id": 10
+    },
+    {
+      "text": "My treammm ",
+      "wordCount": 2,
+      "uniqueWords": [
+        "My",
+        "treammm",
+        ""
+      ],
+      "id": 11
     }
   ],
   "User": [
@@ -95,6 +137,21 @@
       "email": "suprajaboddapati23@gmail.com",
       "password": "12345678",
       "id": 2
+    },
+    {
+      "email": "suprajaboddapati23@gmail.com",
+      "password": "23456",
+      "id": 3
+    },
+    {
+      "email": "suprajaboddapati23@gmail.com",
+      "password": "sdergg",
+      "id": 4
+    },
+    {
+      "email": "suprajaboddapati23@gmail.com",
+      "password": "aswertyuiop",
+      "id": 5
     }
   ]
 }
